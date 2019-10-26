@@ -14,7 +14,7 @@ var traitsRaid = {
     "name": "PH3",
     "url": "",
     "img": "",
-  },
+  }
 };
 
 // Major Azerite Traits a Spec
