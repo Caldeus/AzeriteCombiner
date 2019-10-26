@@ -4,8 +4,9 @@
 
 function updateData() {
   options.class = document.getElementById('select_class').value;
+  options.spec = document.getElementById('select_spec').value;
   if (options.class == 0) {
-    
+    options.spec = options.class
   }
   else if (options.class == 1) {
     
