@@ -45,7 +45,7 @@ var classes = [
         "specs": [
             specs.monkBrewmaster,
             specs.monkMistweaver,
-            specsmonkWindwalker.
+            specs.monkWindwalker
         ]
     },
         {
