@@ -9,5 +9,6 @@ var piecesClothRaid = {
     "location": "x. Bossname",
     "azeriteTraits": [
       traitsRaid.ph1
+    ];
   },
 };
