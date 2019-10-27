@@ -3,10 +3,17 @@
 
 
 function updateData() {
-  options.class = document.getElementById('select_class').value;
-  options.spec = document.getElementById('select_spec').value;
-  if (options.class == 0) {
-    options.spec = options.class
+  options.class = document.getElementById('select_class').text;
+  options.spec = document.getElementById('select_spec');
+  
+  //DK 0, DH 1, Dr 2, Hu 3, Ma 4, Mo 5, Pa 6, Pr 7, Ro 8, Sh 9, 10 WL, 11 War
+  if (options.class == "Death Knight") {
+    option.spec.text = "Blood";
+    options.spec.appendChild(option.spec.text);
+    option.spec.text = "Frost";
+    options.spec.appendChild(option.spec.text);
+    option.spec.text = "Unholy";
+    options.spec.appendChild(option.spec.text);
   }
   else if (options.class == 1) {
     
