@@ -47,4 +47,8 @@ function updateData() {
   else if (options.class = 11) {
     
   }
-};
+}
+
+function refesh() {
+  updateData();
+}
