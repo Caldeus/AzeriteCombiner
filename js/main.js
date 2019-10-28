@@ -3,9 +3,9 @@ function updateSpec() {
   options.spec = document.getElementById('select_spec');
   
 
-  options.spec.remove(0);
-  options.spec.remove(1);
-  options.spec.remove(2);
-  options.spec.remove(3);
+  options.spec.options.remove(0);
+  options.spec.options.remove(1);
+  options.spec.options.remove(2);
+  options.spec.options.remove(3);
 
  }
