@@ -3,5 +3,4 @@ function updateSpec() {
   selectspec = document.getElementById('select_spec');
   
   selectspec.length = 0;
-
- }
+}
