@@ -6,7 +6,9 @@ function updateSpec() {
   options.class = document.getElementById('select_class').;
   options.spec = document.getElementById('select_spec');
   
-  options.spec.options.length = 0;
+  for (i = 0; i < options.spec.length; i++) {
+    options.spec.remove(i)
+  }
   
   //DK 0, DH 1, Dr 2, Hu 3, Ma 4, Mo 5, Pa 6, Pr 7, Ro 8, Sh 9, 10 WL, 11 War
   if (options.class.text == 'Death Knight') {
