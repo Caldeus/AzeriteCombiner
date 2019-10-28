@@ -11,7 +11,7 @@ function updateSpec() {
   var spec2 = document.createElement("option");
   var spec3 = document.createElement("option");
   var spec4 = document.createElement("option");
-  
+  // assigning Specs to Classes
   // Death Knight
   if (selectclass.value == 0) {
     spec1.text = "Blood";
@@ -74,17 +74,18 @@ function updateSpec() {
     spec2.text = "Fury";
     spec3.text = "Protection";
   }
-  
+  //post specs
+  //DH (2specs)
   if (selectclass.value == 1) {
     selectspec.options.add(spec1);
     selectspec.options.add(spec2);
-  }
+  }//Druid (4specs)
   else if (selectclass.value == 2) {
     selectspec.options.add(spec1);
     selectspec.options.add(spec2);
     selectspec.options.add(spec3);
     selectspec.options.add(spec4);
-  }
+  }//rest
   else {
     selectspec.options.add(spec1);
     selectspec.options.add(spec2);
