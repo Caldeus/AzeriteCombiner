@@ -84,6 +84,18 @@ var specs = {
     "name": "Retribution Paladin",       
     "img": "",
   },
+  "priestDiscipline": {
+    "name": "Discipline Priest",       
+    "img": "",
+  },
+  "priestHoly": {
+    "name": "Holy Priest",       
+    "img": "",
+  },
+  "priestShadow": {
+    "name": "Shadow Priest",       
+    "img": "",
+  },
   "rogueAssassination": {
     "name": "Assassination Rogue",       
     "img": "",
