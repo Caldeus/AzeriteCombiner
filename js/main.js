@@ -27,7 +27,7 @@ function updateSpec() {
     spec1.text = "Balance";
     spec2.text = "Feral";
     spec3.text = "Guardian";
-    spec3.text = "Restoration";
+    spec4.text = "Restoration";
   }//Hunter
   else if (selectclass.value == 3) {
     spec1.text = "Beast Mastery";
