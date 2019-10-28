@@ -5,11 +5,11 @@
 		<meta name="description" content="PH enter text here" />
 		<title>8.3 Azerite Combiner</title>
 		<link rel="stylesheet" type="text/css" href="style/style.css" />
-<!--		<link rel="shortcut icon" type="image/png" href="img/ancientfruit.png"> -->
+		<!-- link rel="shortcut icon" type="image/png" href="img/ancientfruit.png"> -->
 	</head>
+	
 	<body>
-		<div class="title">
-		</div>
+		<div class="title"> </div>
 		
 		<script src="js/data.js"> </script>
 		<script src="js/azeritePieces.js"> </script>
@@ -20,36 +20,38 @@
 		<h1>Work In Progress</h1>
 		
 		<div class="specsOptions">
-		<table cellspacing="2">
-			<tr>
-				<td>Class:</td>
-				<td>
-					<select id="select_class" onChange="rebuild()">
-						<option selected="true">Death Knight</option>
-						<option>Demon Hunter</option>
-						<option>Druid</option>
-						<option>Hunter</option>
-						<option>Mage</option>
-						<option>Monk</option>
-						<option>Paladin</option>
-						<option>Priest</option>
-						<option>Rogue</option>
-						<option>Shaman</option>
-						<option>Warlock</option>
-						<option>Warrior</option>
-					</select>
-				</td>
-			</tr>
-			<tr>
-				<td>Specialization:</td>
-				<td>
-					<select id="select_spec" onChange="refresh()">
-						<option value="0" selected="true">Blood</option>
-						<option value="1">Frost</option>
-						<option value="2">Unholy</option>
-					</select>
-				</td>
-			</tr>
-			<p>111</p>
+			<table cellspacing="2">
+				<tr>
+					<td>Class:</td>
+					<td>
+						<select id="select_class" onChange="updateSpec()">
+							<option selected="true">Death Knight</option>
+							<option>Demon Hunter</option>
+							<option>Druid</option>
+							<option>Hunter</option>
+							<option>Mage</option>
+							<option>Monk</option>
+							<option>Paladin</option>
+							<option>Priest</option>
+							<option>Rogue</option>
+							<option>Shaman</option>
+							<option>Warlock</option>
+							<option>Warrior</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Specialization:</td>
+					<td>
+						<select id="select_spec" onChange="showOptions()">
+							<option value="0" selected="true">Blood</option>
+							<option value="1">Frost</option>
+							<option value="2">Unholy</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+			<p>123123</p>
+		</div>
 	</body>
 </html>
