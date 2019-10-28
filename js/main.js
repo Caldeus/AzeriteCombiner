@@ -2,17 +2,20 @@
 
 
 
-function updateData() {
-  options.class = document.getElementById('select_class').text;
+function updateClass() {
+  options.class = document.getElementById('select_class').;
   options.spec = document.getElementById('select_spec');
   
+  options.spec.options.length = 0
+  
   //DK 0, DH 1, Dr 2, Hu 3, Ma 4, Mo 5, Pa 6, Pr 7, Ro 8, Sh 9, 10 WL, 11 War
-  if (options.class == "Death Knight") {
+  if (options.class.text == "Death Knight") {
+    
     options.spec.options[options.spec.options.length] = new Option('Blood', '0', false, false);
     options.spec.options[options.spec.options.length] = new Option('Frost', '0', false, false);
     options.spec.options[options.spec.options.length] = new Option('Unholy', '0', false, false);
   }
-  else if (options.class == 1) {
+  else if (options.class.text == "Demon Hunter") {
     options.spec.options[options.spec.options.length] = new Option('Havoc', '0', false, false);
     options.spec.options[options.spec.options.length] = new Option('Vengeance', '0', false, false);
   }
@@ -48,6 +51,6 @@ function updateData() {
   }
 }
 
-function refesh() {
-  updateData();
+function rebuild() {
+  updateClass();
 }
