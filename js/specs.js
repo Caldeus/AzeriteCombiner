@@ -97,7 +97,7 @@ var specs = {
     "img": "",
   },
   "shamanElemental": {
-    "name": "sElemental Shaman",       
+    "name": "Elemental Shaman",       
     "img": "",
   },
   "shamanEnhancement": {
