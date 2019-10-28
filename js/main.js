@@ -93,3 +93,20 @@ function updateSpec() {
   }
   
 }
+
+function azeriteLocate() {
+  selectPiece = document.getElementById('piece');
+  selectTrait = document.getElementById('trait');
+  var pOutput = document.getElementById('pTP').innerHTML;
+  
+  if (selectTrait.checked == true) {
+    var pOutput = "Which Trait?";
+    document.getElementById('pTP').innerHTML = pOutput;
+    
+  }
+  else if (selectPiece.checked == true) {
+    var pOutput = "Which Piece?";
+    document.getElementById('pTP').innerHTML = pOutput;
+  }
+  
+}
