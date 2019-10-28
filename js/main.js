@@ -8,14 +8,13 @@ function updateData() {
   
   //DK 0, DH 1, Dr 2, Hu 3, Ma 4, Mo 5, Pa 6, Pr 7, Ro 8, Sh 9, 10 WL, 11 War
   if (options.class == "Death Knight") {
-    options.spec[0].options[0].textContent = "Blood"
-    options.spec[1].options[1].textContent = "Frost"
-    options.spec[2].options[2].textContent = "Unholy"
+    options.spec.options[options.spec.options.length] = new Option('Blood', '0', false, false);
+    options.spec.options[options.spec.options.length] = new Option('Frost', '0', false, false);
+    options.spec.options[options.spec.options.length] = new Option('Unholy', '0', false, false);
   }
   else if (options.class == 1) {
-    options.spec[0].options[0].textContent = "Havoc"
-    options.spec[1].options[1].textContent = "Vengeance"
-    options.spec[2].options[2].textContent = ""
+    options.spec.options[options.spec.options.length] = new Option('Havoc', '0', false, false);
+    options.spec.options[options.spec.options.length] = new Option('Vengeance', '0', false, false);
   }
   else if (options.class == 2) {
     
