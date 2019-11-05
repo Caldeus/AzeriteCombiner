@@ -1,0 +1,23 @@
+inv_sword_2h_blood_c_02.png
+[DK] Bloody Runeblade
+https://www.wowhead.com/spell=289339
+
+spell_shadow_deathanddecay.png
+[DK] Bone Spike Graveyard
+https://www.wowhead.com/spell=273088
+
+ability_deathknight_marrowrend
+[DK] Bones of the Damned
+https://www.wowhead.com/spell=278484
+
+
+
+
+
+
+
+
+
+
+
+
